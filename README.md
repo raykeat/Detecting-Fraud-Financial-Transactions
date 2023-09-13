@@ -26,11 +26,17 @@ the models were simply trained on training dataset and tested on validation and 
 6. 6 Different Machine Learning Models were used. Hyperparameter Tuning with cross validation was also performed for each model to identify the best set of hyperparameters.
    
    a. Support Vector Machine (SVM) Model was trained on training data, and evaluated on test data. After hyperparameter tuning, for class 1, it gave a recall of 0.47 and f1 score of 0.64 on test data.
+   
    b. Logistic Regression Model was trained on training data, and evaluated on test data. After hyperparameter tuning, for class 1, it gave a recall of 0.47 and f1 score of 0.60 on test data.
+   
    c. K Nearest Neighbours (KNN) Model was trained on training data, and evaluated on test data. After hyperparameter tuning, for class 1, it gave a recall of 0.42 and f1 score of 0.58 on test data.
+   
    d. Random Forest Model was trained on training data, and evaluated on test data. After hyperparameter tuning, for class 1, it gave a recall of 0.75 and f1 score of 0.85 on test data.
+   
    e. XGBoost Model was trained on training data, and evaluated on test data. After hyperparameter tuning, for class 1, it gave a recall of 0.75 and f1 score of 0.85 on test data.
-   f. TensorFlow Neural Network Model was compiled with Adam Optimizer, Binary Cross Entropy Loss Function, and accuracy and recall metrics. StratifiedKFold object was used to carry out hyperparameter tuning with cross validation on training data. For class 1, it gave a recall of 0.67 and f1 score of 0.79 on test data. 
+   
+   f. TensorFlow Neural Network Model was compiled with Adam Optimizer, Binary Cross Entropy Loss Function, and accuracy and recall metrics. StratifiedKFold object was used to carry out hyperparameter tuning with cross validation on training data. For class 1, it gave a recall of 0.67 and f1 score of 0.79 on test data.
+   
    g. Pytorch Neural Network Model was compiled with Adam Optimizer and Binary Cross Entropy Loss Function. For class 1, it gave a recall of 0.618 on test data.
 
 ## Model Selection
